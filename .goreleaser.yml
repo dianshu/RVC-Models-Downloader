@@ -13,41 +13,10 @@ builds:
     goos:
       - linux
     goarch:
-      - 386
       - amd64
-      - arm
-      - arm64
     goarm:
       - 6
       - 7
-    mod_timestamp: "{{ .CommitTimestamp }}"
-    flags:
-      - -trimpath
-    ldflags:
-      - -s -w
-  - id: macos
-    env:
-      - CGO_ENABLED=0
-      - GO111MODULE=on
-    goos:
-      - darwin
-    goarch:
-      - amd64
-      - arm64
-    mod_timestamp: "{{ .CommitTimestamp }}"
-    flags:
-      - -trimpath
-    ldflags:
-      - -s -w
-  - id: windows
-    env:
-      - CGO_ENABLED=0
-      - GO111MODULE=on
-    goos:
-      - windows
-    goarch:
-      - 386
-      - amd64
     mod_timestamp: "{{ .CommitTimestamp }}"
     flags:
       - -trimpath
