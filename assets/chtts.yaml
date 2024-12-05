@@ -1,4 +1,4 @@
-BaseURL: https://hf-mirror.com/2Noise/ChatTTS/resolve/main
+BaseURL: http://localhost:8000/
 Targets:
   - Folder: asset
     Copy:
