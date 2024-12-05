@@ -1,6 +1,6 @@
 module rvcmd
 
-go 1.22.1
+go 1.19
 
 require (
 	github.com/fumiama/terasu v0.0.0-20240710095334-67a8daa3a979
