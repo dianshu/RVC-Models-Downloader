@@ -1,4 +1,4 @@
-BaseURL: https://huggingface.co/2Noise/ChatTTS/resolve/main
+BaseURL: https://hf-mirror.com/2Noise/ChatTTS/resolve/main
 Targets:
   - Folder: asset
     Copy:
