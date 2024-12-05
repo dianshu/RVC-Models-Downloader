@@ -1,4 +1,4 @@
-BaseURL: http://localhost:8000/
+BaseURL: http://localhost:8000
 Targets:
   - Folder: asset
     Copy:
